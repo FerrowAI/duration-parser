@@ -1,4 +1,5 @@
 # duration-parser
+![CI](https://github.com/FerrowAI/duration-parser/actions/workflows/ci.yml/badge.svg)
 
 Parse human-readable durations to milliseconds and format back; ISO 8601 support.
 
