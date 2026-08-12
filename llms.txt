@@ -1,0 +1,19 @@
+# duration-parser
+
+> Parse human-readable durations to milliseconds and format back to compact or long forms.
+
+Parse common duration formats ("2h30m", "1.5 days", "90s", "1w2d"), ISO 8601 durations ("PT2H30M"), and convert back to human-readable strings. Supports both compact ("2h 30m") and long ("2 hours, 30 minutes") formatting. Round-trip safe.
+
+## API
+
+- `parse(input: string): number` — Parse duration to milliseconds
+- `format(ms: number, opts?: {long?: boolean}): string` — Format milliseconds back
+- Supports: human durations, ISO 8601, plural/singular forms
+
+## Install
+
+```
+npm i duration-parser
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

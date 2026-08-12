@@ -1,0 +1,21 @@
+{
+  "name": "duration-parser",
+  "version": "1.0.0",
+  "description": "Parse human-readable durations to milliseconds and format back; ISO 8601 support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "duration",
+    "parser",
+    "time",
+    "milliseconds",
+    "ISO8601",
+    "typescript"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
