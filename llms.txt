@@ -1,5 +1,7 @@
 # duration-parser
 
+Install: npm install @ferrow/duration-parser
+
 > Parse human-readable durations to milliseconds and format back to compact or long forms.
 
 Parse common duration formats ("2h30m", "1.5 days", "90s", "1w2d"), ISO 8601 durations ("PT2H30M"), and convert back to human-readable strings. Supports both compact ("2h 30m") and long ("2 hours, 30 minutes") formatting. Round-trip safe.

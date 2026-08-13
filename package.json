@@ -1,5 +1,5 @@
 {
-  "name": "duration-parser",
+  "name": "@ferrow/duration-parser",
   "version": "1.0.0",
   "description": "Parse human-readable durations to milliseconds and format back; ISO 8601 support",
   "main": "dist/index.js",
